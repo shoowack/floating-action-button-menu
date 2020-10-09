@@ -11,11 +11,11 @@ ReactDOM.render(
   <Fab>
     <Fab.Item
       icon="fa fa-file"
-      id="createInvite"
+      id="uploadFile"
       onClick={(e) => lol(e.target.id)}
     />
-    <Fab.Item icon="fa fa-envelope" id="createInvite1" />
-    <Fab.Item icon="fa fa-download" id="createInvite3" />
+    <Fab.Item icon="fa fa-envelope" id="createInvite" />
+    <Fab.Item icon="fa fa-download" id="downloadFile" />
   </Fab>,
   rootElement
 );
